@@ -1,0 +1,42 @@
+[
+  {
+    "group": "admin",
+    "permissions": [
+      {
+        "resource": "*",
+        "methods": "*",
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "moderator",
+    "permissions": [
+      {
+        "resource": "notices/*",
+        "methods": ["POST", "GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "profile/*",
+        "methods": ["GET"],
+        "action": "allow"
+      }
+    ]
+  },
+  {
+    "group": "auth",
+    "permissions": [
+      {
+        "resource": "notices/*",
+        "methods": ["GET"],
+        "action": "allow"
+      },
+      {
+        "resource": "profile/*",
+        "methods": ["GET"],
+        "action": "allow"
+      }
+    ]
+  }
+]

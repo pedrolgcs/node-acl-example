@@ -1,0 +1,19 @@
+{
+  "name": "node-acl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:server": "nodemon final-project/src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-acl": "^2.0.8",
+    "jsonwebtoken": "^8.5.1",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sucrase": "^3.15.0"
+  }
+}
